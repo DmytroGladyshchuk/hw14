@@ -1,0 +1,357 @@
+body {
+    font-family: roboto;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+.conteiner {
+    margin: 0 auto;
+    width: 1200px;
+    padding: 0px 15px;
+}
+
+/* ?==========main page========== */
+/* !==========header========== */
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 0px 90px;
+    height: 80px;
+    align-items: center;
+}
+
+.header-name {
+    font-size: 26px;
+    font-family: Raleway;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+}
+
+.web {
+    color: #2196f3;
+}
+
+.contacts-list {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.list-header-nav,
+.contacts-list {
+    gap: 0px 34px;
+}
+
+.header-wrap {
+    display: flex;
+    gap: 0px 320px;
+}
+
+.header-link {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+.header-item .header-link:hover {
+    color: #2196f3;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+.list-header-nav {
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    display: flex;
+}
+
+.contacts-item .contacts-link:hover {
+    color: #2196f3;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+}
+
+.contacts-link {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    margin-top: 32px;
+}
+
+/* !==========banner========== */
+.banner {
+    background-color: #2f303a;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-tytle {
+    color: #fff;
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+.banner-btn {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.96px;
+    color: #fff;
+    background-color: #2196f3;
+    width: 216px;
+    height: 50px;
+}
+
+/* !==========specials========== */
+.specials {
+    margin-bottom: 118px;
+    margin-top: 94px;
+}
+
+.list-sp-tytle {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.specials-list {
+    display: flex;
+    justify-content: center;
+    gap: 0px 30px;
+}
+
+.specials li {
+    width: 260px;
+}
+
+.list-sp-text {
+    color: #757575;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+
+/* !==========work========== */
+.work {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-tytle {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 1.08px;
+}
+
+.work-list {
+    display: flex;
+    justify-content: center;
+    gap: 0px 30px;
+}
+
+.work-img {
+    width: 360px;
+    height: 294px;
+    box-sizing: border-box;
+}
+
+/* !==========people========== */
+.people {
+    margin-top: 94px;
+    padding-top: 94px;
+    background: #f5f4fa;
+    padding-bottom: 188px;
+}
+
+.people-list {
+    display: flex;
+    justify-content: center;
+    gap: 0px 25px;
+}
+
+.people-tytle {
+    color: #212121;
+    text-align: center;
+    font-size: 36px;
+    letter-spacing: 1.08px;
+}
+
+.list-people-name {
+    color: #212121;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+}
+
+.list-people-job {
+    color: #757575;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+}
+
+.people-item {
+    box-sizing: border-box;
+    width: 270px;
+    height: 260px;
+}
+
+/* !==========footer========== */
+.footer {
+    background-color: #2f303a;
+    height: 252px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-wrap {
+    /* width: 1170px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-list {
+    height: 60px;
+    margin-bottom: 60px;
+    gap: 10px;
+}
+
+.footer-name {
+    color: #fff;
+    font-family: raleway;
+    font-weight: 700;
+    margin-top: 60px;
+    font-size: 26px;
+}
+
+.footer-item-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+
+.footer-item-link-1 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+}
+
+/* ?==========portfolio========== */
+/* !==========header========== */
+
+/* !==========projects========== */
+.proj-list-btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.proj-btn {
+    color: #212121;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+    display: inline-block;
+    border-radius: 4px;
+    margin: 8px;
+    width: 112px;
+    height: 38px;
+    border: none;
+}
+
+.proj-btn:hover {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.48px;
+    background-color: #2196f3;
+}
+
+.proj-item-img {
+    width: 356px;
+}
+
+.proj-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: calc((100% - 3 * 30) / 3);
+}
+
+.proj-item-tytle {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 1.08px;
+}
+
+.proj-item-text {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.48px;
+}
