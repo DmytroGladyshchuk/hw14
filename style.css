@@ -260,10 +260,37 @@ body {
     gap: 0px 30px;
 }
 
+
 .work_img {
-    width: 360px;
+    width: 370px;
     height: 294px;
     box-sizing: border-box;
+}
+
+.work_item {
+    position: relative;
+
+}
+
+.div_command {
+    width: 370px;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.80);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.p_command {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
 }
 
 /* !==========people========== */
